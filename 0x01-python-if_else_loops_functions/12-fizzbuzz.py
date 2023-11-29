@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 for i in range(1, 101):
     if i % 3 == 0 and i % 5 == 0:
-        i = "FizzBuzz"
+        print("FizzBuzz", end="")
     elif i % 3 == 0:
-        i = "Fizz"
+        print("Fizz", end="")
     elif i % 5 == 0:
-        i = "Buzz"
-print("{}".format(i), end=" ")
+        print("Buzz", end="")
+print("{} ".format(i), end="")
